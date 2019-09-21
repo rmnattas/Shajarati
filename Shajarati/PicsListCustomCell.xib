@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="inr-V4-h00" customClass="PicsListCustomCell" customModule="Shajarati" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="inr-V4-h00" id="zEI-nv-t1L">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aJy-sn-A4g">
+                        <rect key="frame" x="8" y="0.0" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="2Ai-In-op4"/>
+                            <constraint firstAttribute="width" constant="44" id="DJc-GS-mx2"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QA9-Ma-sGV">
+                        <rect key="frame" x="585" y="8" width="0.0" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="ex7-YQ-hL2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Irv-3f-O4c">
+                        <rect key="frame" x="508" y="8" width="74" height="14"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="coN-SQ-F8h">
+                                <rect key="frame" x="56" y="2" width="10" height="10"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="twitter.png" translatesAutoresizingMaskIntoConstraints="NO" id="A91-X8-nXv">
+                                <rect key="frame" x="44" y="2" width="10" height="10"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="email.png" translatesAutoresizingMaskIntoConstraints="NO" id="CB5-ZL-66O">
+                                <rect key="frame" x="32" y="2" width="10" height="10"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whatsapp.png" translatesAutoresizingMaskIntoConstraints="NO" id="yd9-lM-aXz">
+                                <rect key="frame" x="20" y="2" width="10" height="10"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.png" translatesAutoresizingMaskIntoConstraints="NO" id="DEZ-T1-H6e">
+                                <rect key="frame" x="8" y="2" width="10" height="10"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="14" id="Dfu-wU-QJx"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="PDz-D3-UtA"/>
+                            <constraint firstAttribute="height" constant="20" id="TXZ-m0-bqN"/>
+                            <constraint firstAttribute="height" constant="14" id="rge-0G-yxU"/>
+                            <constraint firstAttribute="width" constant="124" id="v1k-W2-qk6"/>
+                            <constraint firstAttribute="width" constant="74" id="xsG-Vw-T1b"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Dfu-wU-QJx"/>
+                                <exclude reference="PDz-D3-UtA"/>
+                                <exclude reference="TXZ-m0-bqN"/>
+                                <exclude reference="v1k-W2-qk6"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Irv-3f-O4c" firstAttribute="top" secondItem="zEI-nv-t1L" secondAttribute="topMargin" id="3Su-C5-avG"/>
+                    <constraint firstItem="QA9-Ma-sGV" firstAttribute="top" secondItem="zEI-nv-t1L" secondAttribute="topMargin" id="G4H-Qi-2sh"/>
+                    <constraint firstItem="aJy-sn-A4g" firstAttribute="top" secondItem="zEI-nv-t1L" secondAttribute="topMargin" constant="-8" id="HkL-8b-mLK"/>
+                    <constraint firstItem="aJy-sn-A4g" firstAttribute="leading" secondItem="zEI-nv-t1L" secondAttribute="leadingMargin" id="TlG-QW-gTp"/>
+                    <constraint firstItem="QA9-Ma-sGV" firstAttribute="trailing" secondItem="zEI-nv-t1L" secondAttribute="trailingMargin" constant="-7" id="U1L-5h-aJF"/>
+                    <constraint firstItem="QA9-Ma-sGV" firstAttribute="leading" secondItem="Irv-3f-O4c" secondAttribute="trailing" constant="3" id="g4K-1n-nxj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgperson" destination="aJy-sn-A4g" id="DeR-lC-b4C"/>
+                <outlet property="lblname" destination="QA9-Ma-sGV" id="xnd-4P-IBo"/>
+            </connections>
+            <point key="canvasLocation" x="377" y="84"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="email.png" width="100" height="100"/>
+        <image name="facebook.png" width="100" height="100"/>
+        <image name="person.png" width="100" height="100"/>
+        <image name="twitter.png" width="100" height="100"/>
+        <image name="whatsapp.png" width="100" height="100"/>
+    </resources>
+</document>
