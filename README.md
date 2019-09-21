@@ -1,4 +1,4 @@
-# Shajarati [(AppStore)](apple.co/2BGK3Ze)
+# Shajarati [(AppStore)](https://apple.co/2BGK3Ze)
 
 Front-end iOS application developed using Swift. Working with a family-tree online database with 15 thousand entries. Three versions released. Two thousand downloads from the AppStore.
 
